@@ -6,7 +6,7 @@ framework:
 mem: 64M
 
 services:
-  redis-multisweeper: redis
+  redis: redis-multisweeper
 
 processes:
   web: node lib/app.js
